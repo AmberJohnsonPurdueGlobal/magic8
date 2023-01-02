@@ -7,7 +7,7 @@ name = ""
 question = ""
 #Generate series of possible answers
 answer = ""
-#Random question picker
+#Random answer picker
 random_number = random.randint(1, 9)
 #uncomment to verify random answer picker is picking at random
 #print(random_number)
