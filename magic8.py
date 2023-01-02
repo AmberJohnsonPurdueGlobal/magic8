@@ -1,7 +1,7 @@
 import random
 
 #Generate username
-name = "Amber"
+name = ""
 #Generate Question to ask
 question = "Will today be a good day?"
 #Generate series of possible answers
@@ -11,10 +11,13 @@ random_number = random.randint(1, 9)
 #uncomment to verify random answer picker is picking at random
 #print(random_number)
 
+#if user does not input name it replaces the name with "seeker"
+if name == "":
+  print("Seeker"+ " asks: " + question)
+else:
+   print(name + " asks: " + question)
 #Ask a question
-print(name + " asks: " + question)
 
-#Answer to question
 print("magic8 states: ")
 
 #series of poosible answers within the 1-9 range to output
