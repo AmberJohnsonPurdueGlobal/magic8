@@ -14,6 +14,9 @@ random_number = random.randint(1, 9)
 #Ask a question
 print(name + " asks: " + question)
 
+#Answer to question
+print("magic8 states: ")
+
 #series of poosible answers within the 1-9 range to output
 if random_number == 1:
   print("Yes - definitely.")
